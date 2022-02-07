@@ -8,8 +8,8 @@ let package = Package(
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
-        .package(url: "https://github.com/vapor/vapor", from: "4.32.0"),
-        .package(url: "https://github.com/vapor/leaf", .exact("4.0.0-tau.1")),
+        .package(url: "https://github.com/vapor/vapor", from: "4.55.0"),
+        .package(url: "https://github.com/vapor/leaf", .exact("4.1.5")),
         .package(url: "https://github.com/mczachurski/Swiftgger.git", from: "1.4.0")
     ],
     targets: [
